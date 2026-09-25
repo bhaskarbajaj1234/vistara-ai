@@ -41,6 +41,7 @@ Before setting up the project, ensure you have the following installed:
 git clone https://github.com/your-username/realtime-multimodal-gemini-app.git
 
 2. Install Dependencies
+
 npm install
 # or
 yarn install
@@ -67,6 +68,7 @@ pnpm dev
 Open http://localhost:3000 in your browser to view and interact with the application.
 
 Available Scripts
+
 npm run dev — Runs the app in development mode.
 
 npm run build — Builds the app for production deployment.
@@ -76,6 +78,7 @@ npm run start — Starts the production server.
 npm run lint — Runs ESLint to check for code quality issues.
 
 Tech Stack
+
 Framework: Next.js
 
 AI Models: Google Gemini 3.8 Multimodal Live API
