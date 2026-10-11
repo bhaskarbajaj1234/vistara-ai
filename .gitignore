@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+
+# next.js build & turbopack cache
+.next/
+.turbo/
+
+# environment files (API keys safe rakhne ke liye)
+.env
+.env.*
+!.env.example
+
+# production / test builds
+dist/
+build/
+coverage/
+
+# typescript
+*.tsbuildinfo
+
+# logs & OS files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
